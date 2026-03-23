@@ -1,6 +1,8 @@
 # Mike Nelson QuPath Extensions
 
-General-purpose QuPath extensions developed by Mike Nelson at [LOCI](https://eliceirilab.org/), University of Wisconsin-Madison.
+Experimental QuPath extensions developed by Mike Nelson at [LOCI](https://eliceirilab.org/), University of Wisconsin-Madison.
+
+**Note:** These are prototype tools under active development. They have not been peer-reviewed or published. Use at your own discretion -- APIs and behavior may change between versions. Bug reports and feedback are welcome via each extension's GitHub Issues page.
 
 ## Adding This Catalog to QuPath
 

@@ -1,6 +1,6 @@
 {
   "name": "Mike Nelson QuPath Extensions",
-  "description": "General-purpose QuPath extensions developed by Mike Nelson at LOCI, University of Wisconsin-Madison",
+  "description": "Experimental QuPath extensions developed by Mike Nelson at LOCI, University of Wisconsin-Madison. These are prototype tools under active development -- not peer-reviewed and not yet published.",
   "extensions": [
     {
       "name": "DL Pixel Classifier",
