@@ -1,0 +1,82 @@
+{
+  "name": "Mike Nelson QuPath Extensions",
+  "description": "General-purpose QuPath extensions developed by Mike Nelson at LOCI, University of Wisconsin-Madison",
+  "extensions": [
+    {
+      "name": "DL Pixel Classifier",
+      "description": "Deep learning pixel classification with embedded Python inference via Appose",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-DL-pixel-classifier",
+      "starred": true,
+      "releases": [
+        {
+          "name": "v0.3.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-DL-pixel-classifier/releases/download/v0.3.7/qupath-extension-DL-pixel-classifier-0.3.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QP-CAT Cluster Analysis Tools",
+      "description": "Python-powered clustering, phenotyping, and spatial analysis for multiplexed imaging data",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-pyclustering",
+      "releases": [
+        {
+          "name": "v0.1.0-rc1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-pyclustering/releases/download/v0.1.0-rc1/qupath-extension-pyclustering-0.1.0-rc1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dialog Position Manager",
+      "description": "Remembers and restores dialog window positions across sessions, with automatic recovery for off-screen windows",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-dialog-manager",
+      "releases": [
+        {
+          "name": "v0.3.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.3.4/qupath-extension-dialog-manager-0.3.4-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "OCR for Labels",
+      "description": "Optical character recognition for extracting text from slide labels and barcodes",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-ocr4labels",
+      "releases": [
+        {
+          "name": "v0.2.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-ocr4labels/releases/download/v0.2.3/qupath-extension-ocr4labels-0.2.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuIET - Image Export Toolkit",
+      "description": "Comprehensive image export with overlays, masks, scale bars, and ML training data generation",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-image-export-toolkit",
+      "releases": [
+        {
+          "name": "v0.7.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.1/qupath-extension-image-export-toolkit-0.7.1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    }
+  ]
+}
