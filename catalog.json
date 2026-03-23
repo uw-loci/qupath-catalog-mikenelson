@@ -6,12 +6,12 @@
       "name": "DL Pixel Classifier",
       "description": "Deep learning pixel classification with embedded Python inference via Appose",
       "author": "Michael Nelson",
-      "homepage": "https://github.com/uw-loci/qupath-extension-DL-pixel-classifier",
+      "homepage": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier",
       "starred": true,
       "releases": [
         {
           "name": "v0.3.7",
-          "main_url": "https://github.com/uw-loci/qupath-extension-DL-pixel-classifier/releases/download/v0.3.7/qupath-extension-DL-pixel-classifier-0.3.7-all.jar",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.3.7/qupath-extension-DL-pixel-classifier-0.3.7-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
@@ -22,11 +22,11 @@
       "name": "QP-CAT Cluster Analysis Tools",
       "description": "Python-powered clustering, phenotyping, and spatial analysis for multiplexed imaging data",
       "author": "Michael Nelson",
-      "homepage": "https://github.com/uw-loci/qupath-extension-pyclustering",
+      "homepage": "https://github.com/uw-loci/qupath-extension-cluster-analysis-tools",
       "releases": [
         {
           "name": "v0.1.0-rc1",
-          "main_url": "https://github.com/uw-loci/qupath-extension-pyclustering/releases/download/v0.1.0-rc1/qupath-extension-pyclustering-0.1.0-rc1-all.jar",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cluster-analysis-tools/releases/download/v0.1.0-rc1/qupath-extension-pyclustering-0.1.0-rc1-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }

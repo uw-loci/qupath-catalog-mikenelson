@@ -22,12 +22,12 @@ The extensions from this catalog will now appear in the extension manager.
 ### DL Pixel Classifier
 Deep learning pixel classification with embedded Python inference via Appose. Train and apply pixel classifiers using PyTorch/ONNX models directly within QuPath.
 
-- **Repository**: https://github.com/uw-loci/qupath-extension-DL-pixel-classifier
+- **Repository**: https://github.com/uw-loci/qupath-extension-dl-pixel-classifier
 
 ### QP-CAT - Cluster Analysis Tools
 Python-powered clustering (Leiden, KMeans, HDBSCAN, BANKSY, and more), rule-based phenotyping, dimensionality reduction (UMAP, PCA, t-SNE), and spatial analysis for multiplexed imaging data.
 
-- **Repository**: https://github.com/uw-loci/qupath-extension-pyclustering
+- **Repository**: https://github.com/uw-loci/qupath-extension-cluster-analysis-tools
 
 ### Dialog Position Manager
 Remembers and restores dialog window positions across sessions. Automatically recovers windows that become inaccessible (e.g., when a monitor is disconnected).
