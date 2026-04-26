@@ -1,6 +1,6 @@
 {
-  "name": "Mike Nelson QuPath Extensions",
-  "description": "Experimental QuPath extensions developed by Mike Nelson at LOCI, University of Wisconsin-Madison. These are prototype tools under active development -- not peer-reviewed and not yet published.",
+  "name": "LOCI QuPath Extensions",
+  "description": "General-purpose QuPath extensions developed at LOCI, University of Wisconsin-Madison. Analysis, export, and workflow tools for digital pathology.",
   "extensions": [
     {
       "name": "DL Pixel Classifier",
@@ -10,8 +10,8 @@
       "starred": true,
       "releases": [
         {
-          "name": "v0.3.7",
-          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.3.7/qupath-extension-DL-pixel-classifier-0.3.7-all.jar",
+          "name": "v0.6.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.6.2/qupath-extension-dl-pixel-classifier-0.6.2-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
@@ -19,44 +19,14 @@
       ]
     },
     {
-      "name": "QP-CAT Cluster Analysis Tools",
+      "name": "QP-CAT Cell Analysis Tools",
       "description": "Python-powered clustering, phenotyping, and spatial analysis for multiplexed imaging data",
       "author": "Michael Nelson",
-      "homepage": "https://github.com/uw-loci/qupath-extension-cluster-analysis-tools",
+      "homepage": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools",
       "releases": [
         {
-          "name": "v0.1.0-rc1",
-          "main_url": "https://github.com/uw-loci/qupath-extension-cluster-analysis-tools/releases/download/v0.1.0-rc1/qupath-extension-pyclustering-0.1.0-rc1-all.jar",
-          "version_range": {
-            "min": "v0.6.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Dialog Position Manager",
-      "description": "Remembers and restores dialog window positions across sessions, with automatic recovery for off-screen windows",
-      "author": "Michael Nelson",
-      "homepage": "https://github.com/uw-loci/qupath-extension-dialog-manager",
-      "releases": [
-        {
-          "name": "v0.3.4",
-          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.3.4/qupath-extension-dialog-manager-0.3.4-all.jar",
-          "version_range": {
-            "min": "v0.6.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "OCR for Labels",
-      "description": "Optical character recognition for extracting text from slide labels and barcodes",
-      "author": "Michael Nelson",
-      "homepage": "https://github.com/uw-loci/qupath-extension-ocr4labels",
-      "releases": [
-        {
-          "name": "v0.2.3",
-          "main_url": "https://github.com/uw-loci/qupath-extension-ocr4labels/releases/download/v0.2.3/qupath-extension-ocr4labels-0.2.3-all.jar",
+          "name": "v0.2.2-rc1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.2.2-rc1/qupath-extension-cell-analysis-tools-0.2.2-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
@@ -70,8 +40,68 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-image-export-toolkit",
       "releases": [
         {
-          "name": "v0.7.1",
-          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.1/qupath-extension-image-export-toolkit-0.7.1-all.jar",
+          "name": "v0.7.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.3/qupath-extension-image-export-toolkit-0.7.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dialog Position Manager",
+      "description": "Remembers and restores dialog window positions across sessions, with automatic recovery for off-screen windows",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-dialog-manager",
+      "releases": [
+        {
+          "name": "v0.3.6",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.3.6/qupath-extension-dialog-manager-0.3.6-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wizard Wand",
+      "description": "Interactive magic wand tool with adjustable tolerance for region growing annotation",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-wizard-wand",
+      "releases": [
+        {
+          "name": "v0.4.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-wizard-wand/releases/download/v0.4.2/qupath-extension-wizard-wand-0.4.2-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gated Object Classifier",
+      "description": "Measurement-gated object classification with histogram visualization and threshold-based gating",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-gated-object-classifier",
+      "releases": [
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-gated-object-classifier/releases/download/v0.1.0/qupath-extension-gated-object-classifier-0.1.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Project Metadata Browser",
+      "description": "Browse, search, and edit metadata across all images in a QuPath project",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-project-metadata-browser",
+      "releases": [
+        {
+          "name": "v0.1.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-project-metadata-browser/releases/download/v0.1.1/qupath-extension-project-metadata-browser-0.1.1-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
