@@ -8,8 +8,7 @@ name: Update catalog on extension release
 #
 # Per-extension wiring lives in each extension repo at:
 #   .github/workflows/notify-catalog.yml
-# See the QPSC project CLAUDE.md "Catalog integration" section for the
-# canonical workflow text and PAT setup.
+# See MAINTAINERS.md for the full auto-update flow and PAT setup.
 
 on:
   repository_dispatch:
@@ -51,13 +50,24 @@ jobs:
 
       - name: Bump catalog entry
         id: bump
-        continue-on-error: true
         run: |
+          # Use `set +e` so a non-zero exit from bump_catalog.py does not
+          # terminate the shell before we capture the code. We always
+          # exit 0 from this step; downstream steps branch on the
+          # captured exit_code output. Without this, the shell exits at
+          # the python line, the echo never runs, exit_code is empty,
+          # and GitHub Actions evaluates `'' == '0'` as true (JS-style
+          # numeric coercion) -- which made the commit step fire on
+          # every no-op. Don't change to a one-liner without preserving
+          # the explicit exit-code capture.
+          set +e
           python3 .ci/bump_catalog.py \
             --repo      "${{ steps.inputs.outputs.repo }}" \
             --tag       "${{ steps.inputs.outputs.tag }}" \
             --asset-url "${{ steps.inputs.outputs.asset_url }}"
-          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+          ec=$?
+          echo "exit_code=$ec" >> "$GITHUB_OUTPUT"
+          echo "bump_catalog.py exited with $ec"
 
       - name: Handle no-op
         if: steps.bump.outputs.exit_code == '78'
@@ -73,8 +83,16 @@ jobs:
       - name: Commit and push
         if: steps.bump.outputs.exit_code == '0'
         run: |
+          set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add catalog.json
+          # Defense-in-depth: if for any reason the working tree has no
+          # change despite bump exit 0, exit cleanly instead of failing
+          # `git commit` with "nothing to commit".
+          if git diff --cached --quiet; then
+            echo "No changes staged after bump (unexpected, but safe to ignore)."
+            exit 0
+          fi
           git commit -m "Auto-bump ${{ steps.inputs.outputs.repo }} -> ${{ steps.inputs.outputs.tag }}"
           git push
