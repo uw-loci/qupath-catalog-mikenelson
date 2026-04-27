@@ -34,6 +34,11 @@ Remembers and restores dialog window positions across sessions. Automatically re
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-dialog-manager
 
+### Gated Object Classifier
+Apply a saved object classifier to a *gated* subset of objects, defined by class membership, a measurement threshold, the current viewer selection, or any combination. Includes a live preview of how many objects will be classified, and records each apply as a reusable workflow step that can be replayed across a project.
+
+- **Repository**: https://github.com/uw-loci/qupath-extension-gated-object-classifier
+
 ### OCR for Labels
 Optical character recognition for extracting text and barcodes from slide labels. Supports template-based metadata extraction.
 
