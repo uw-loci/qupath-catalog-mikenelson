@@ -27,7 +27,7 @@ Deep learning pixel classification with embedded Python inference via Appose. Tr
 ### QP-CAT - Cluster Analysis Tools
 Python-powered clustering (Leiden, KMeans, HDBSCAN, BANKSY, and more), rule-based phenotyping, dimensionality reduction (UMAP, PCA, t-SNE), and spatial analysis for multiplexed imaging data.
 
-- **Repository**: https://github.com/uw-loci/qupath-extension-cluster-analysis-tools
+- **Repository**: https://github.com/uw-loci/qupath-extension-cell-analysis-tools
 
 ### Dialog Position Manager
 Remembers and restores dialog window positions across sessions. Automatically recovers windows that become inaccessible (e.g., when a monitor is disconnected).
@@ -44,10 +44,20 @@ Optical character recognition for extracting text and barcodes from slide labels
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-ocr4labels
 
+### Project Metadata Browser
+Browse, search, and edit metadata across all images in a QuPath project from a single table view.
+
+- **Repository**: https://github.com/uw-loci/qupath-extension-project-metadata-browser
+
 ### QuIET - Image Export Toolkit
 Comprehensive batch export of rendered overlays, label masks, raw pixel data, and ML training tiles with wizard UI, script generation, and publication advice.
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-image-export-toolkit
+
+### Wizard Wand
+Interactive magic wand tool with adjustable tolerance for region-growing annotation.
+
+- **Repository**: https://github.com/uw-loci/qupath-extension-wizard-wand
 
 ## Requirements
 
