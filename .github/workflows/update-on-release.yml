@@ -1,0 +1,80 @@
+name: Update catalog on extension release
+
+# Triggered by a `repository_dispatch` event sent from each extension repo's
+# notify-catalog workflow when a release is published. Also exposes a
+# `workflow_dispatch` button so a human can run it manually with custom
+# inputs (useful for backfilling, testing, or working around a missed
+# release event).
+#
+# Per-extension wiring lives in each extension repo at:
+#   .github/workflows/notify-catalog.yml
+# See the QPSC project CLAUDE.md "Catalog integration" section for the
+# canonical workflow text and PAT setup.
+
+on:
+  repository_dispatch:
+    types: [extension-release]
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: "Extension repo (owner/name)"
+        required: true
+      tag:
+        description: "Release tag (e.g. v0.1.2)"
+        required: true
+      asset_url:
+        description: "Download URL of the .jar asset"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout catalog
+        uses: actions/checkout@v4
+
+      - name: Resolve inputs
+        id: inputs
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "repo=${{ inputs.repo }}"           >> "$GITHUB_OUTPUT"
+            echo "tag=${{ inputs.tag }}"             >> "$GITHUB_OUTPUT"
+            echo "asset_url=${{ inputs.asset_url }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "repo=${{ github.event.client_payload.repo }}"           >> "$GITHUB_OUTPUT"
+            echo "tag=${{ github.event.client_payload.tag }}"             >> "$GITHUB_OUTPUT"
+            echo "asset_url=${{ github.event.client_payload.asset_url }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bump catalog entry
+        id: bump
+        continue-on-error: true
+        run: |
+          python3 .ci/bump_catalog.py \
+            --repo      "${{ steps.inputs.outputs.repo }}" \
+            --tag       "${{ steps.inputs.outputs.tag }}" \
+            --asset-url "${{ steps.inputs.outputs.asset_url }}"
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Handle no-op
+        if: steps.bump.outputs.exit_code == '78'
+        run: |
+          echo "Catalog already up to date for ${{ steps.inputs.outputs.repo }} -> ${{ steps.inputs.outputs.tag }}; nothing to commit."
+
+      - name: Fail on real error
+        if: ${{ steps.bump.outputs.exit_code != '0' && steps.bump.outputs.exit_code != '78' }}
+        run: |
+          echo "::error::bump_catalog.py exited with ${{ steps.bump.outputs.exit_code }}"
+          exit 1
+
+      - name: Commit and push
+        if: steps.bump.outputs.exit_code == '0'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git commit -m "Auto-bump ${{ steps.inputs.outputs.repo }} -> ${{ steps.inputs.outputs.tag }}"
+          git push
