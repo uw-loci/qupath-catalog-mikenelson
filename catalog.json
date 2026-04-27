@@ -80,7 +80,7 @@
     },
     {
       "name": "Gated Object Classifier",
-      "description": "Measurement-gated object classification with histogram visualization and threshold-based gating",
+      "description": "Apply a saved object classifier to a gated subset of objects, defined by class membership, a measurement threshold, the current selection, or any combination. Each apply records a reusable workflow step.",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-gated-object-classifier",
       "releases": [
