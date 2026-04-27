@@ -4,7 +4,7 @@
   "extensions": [
     {
       "name": "Deep Learning Pixel Classifier",
-      "description": "Deep learning pixel classification with embedded Python inference via Appose",
+      "description": "(Beta) Deep learning pixel classification with embedded Python inference via Appose",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier",
       "releases": [
