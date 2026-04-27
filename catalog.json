@@ -3,11 +3,10 @@
   "description": "General-purpose QuPath extensions developed at LOCI, University of Wisconsin-Madison. Analysis, export, and workflow tools for digital pathology.",
   "extensions": [
     {
-      "name": "DL Pixel Classifier",
+      "name": "Deep Learning Pixel Classifier",
       "description": "Deep learning pixel classification with embedded Python inference via Appose",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier",
-      "starred": true,
       "releases": [
         {
           "name": "v0.6.2",
@@ -38,6 +37,7 @@
       "description": "Comprehensive image export with overlays, masks, scale bars, and ML training data generation",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-image-export-toolkit",
+      "starred": true,
       "releases": [
         {
           "name": "v0.7.3",
@@ -53,6 +53,7 @@
       "description": "Remembers and restores dialog window positions across sessions, with automatic recovery for off-screen windows",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-dialog-manager",
+      "starred": true,
       "releases": [
         {
           "name": "v0.3.6",
@@ -68,6 +69,7 @@
       "description": "Interactive magic wand tool with adjustable tolerance for region growing annotation",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-wizard-wand",
+      "starred": true,
       "releases": [
         {
           "name": "v0.4.2",

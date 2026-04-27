@@ -19,7 +19,7 @@ The extensions from this catalog will now appear in the extension manager.
 
 ## Available Extensions
 
-### DL Pixel Classifier
+### Deep Learning Pixel Classifier
 Deep learning pixel classification with embedded Python inference via Appose. Train and apply pixel classifiers using PyTorch/ONNX models directly within QuPath.
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-dl-pixel-classifier
