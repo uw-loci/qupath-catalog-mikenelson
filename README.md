@@ -24,7 +24,7 @@ Deep learning pixel classification with embedded Python inference via Appose. Tr
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-dl-pixel-classifier
 
-### QP-CAT - Cluster Analysis Tools
+### QP-CAT - Cell Analysis Tools
 Python-powered clustering (Leiden, KMeans, HDBSCAN, BANKSY, and more), rule-based phenotyping, dimensionality reduction (UMAP, PCA, t-SNE), and spatial analysis for multiplexed imaging data.
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-cell-analysis-tools
