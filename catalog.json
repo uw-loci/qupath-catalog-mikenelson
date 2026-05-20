@@ -56,8 +56,8 @@
       "starred": true,
       "releases": [
         {
-          "name": "v0.3.6",
-          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.3.6/qupath-extension-dialog-manager-0.3.6-all.jar",
+          "name": "v0.4.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.4.0/qupath-extension-dialog-manager-0.4.0-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
