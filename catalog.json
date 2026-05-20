@@ -132,8 +132,8 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-channel-names-viewer",
       "releases": [
         {
-          "name": "v1.0.8",
-          "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.0.8/qupath-extension-channel-names-viewer-1.0.8-all.jar",
+          "name": "v1.0.9",
+          "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.0.9/qupath-extension-channel-names-viewer-1.0.9-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
