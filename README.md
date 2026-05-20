@@ -68,6 +68,11 @@ Always-visible floating legend listing the currently-selected fluorescence chann
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-channel-names-viewer
 
+### Class Distribution
+Live pie charts of annotation class distribution across a QuPath project, plus a companion dialog for object-classifier training balance (how many detections each class would label). Project, current-image, and scrollable per-image-grid views; over/under-representation highlighting; missing-class detection.
+
+- **Repository**: https://github.com/uw-loci/qupath-extension-class-distribution
+
 ## Requirements
 
 - QuPath 0.6.0 or later
