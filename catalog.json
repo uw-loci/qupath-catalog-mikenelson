@@ -40,8 +40,8 @@
       "starred": true,
       "releases": [
         {
-          "name": "v0.7.7",
-          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.7/qupath-extension-image-export-toolkit-0.7.7-all.jar",
+          "name": "v1.0.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.0.0/qupath-extension-image-export-toolkit-1.0.0-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
