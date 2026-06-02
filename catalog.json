@@ -9,8 +9,8 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier",
       "releases": [
         {
-          "name": "v0.8.0",
-          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.8.0/qupath-extension-dl-pixel-classifier-0.8.0-all.jar",
+          "name": "v0.8.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.8.1/qupath-extension-dl-pixel-classifier-0.8.1-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
