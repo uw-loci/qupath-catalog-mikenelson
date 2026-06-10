@@ -15,14 +15,26 @@ Behaviour:
     - Finds the extension entry whose `homepage` ends with the given repo
       (matching is suffix-based so http/https and trailing-slash variants
       are tolerated).
-    - Replaces the *first* element of that entry's `releases` list with
-      the new tag + asset URL, preserving `version_range`. (The catalog
-      currently keeps a single release per extension; if that ever changes,
-      revisit this.)
+    - PREPENDS a new release (tag + asset URL) to that entry's `releases`
+      list, leaving older release entries in place. The new release inherits
+      the `version_range` of the current newest release (or a default for a
+      brand-new entry).
     - Writes back with 2-space indent + trailing newline (idempotent if
       the bump is a no-op).
     - Exits 0 if catalog.json was modified, 78 (EX_NOOP) if no change was
       needed, non-zero on any error.
+
+Why prepend instead of replace:
+    QuPath's Extension Manager re-matches an INSTALLED extension to this
+    catalog by exact release-name string equality (Catalog.createExtensionsFromCatalog
+    in qupath/extension-manager). If the release the user currently has
+    installed is no longer listed, QuPath resolves the extension as "not
+    installed" and never offers an update -- it skips straight past "update
+    available". Keeping older release entries preserves that match, so a user
+    on v1.0.0 still sees the catalog list v1.0.0 (installed) AND the newer
+    v1.0.1 (the strictly-greater compatible release that triggers the update
+    notification). QuPath selects the max-by-version compatible release, so
+    list order is for human readability only.
 
 Pre-release handling:
     The catalog already lists pre-releases (e.g. v0.2.2-rc1 was published
@@ -31,6 +43,7 @@ Pre-release handling:
     flag here and gate it from the workflow side via the dispatch payload.
 """
 import argparse
+import copy
 import json
 import sys
 from pathlib import Path
@@ -75,24 +88,33 @@ def main() -> int:
         return 3
 
     releases = target.setdefault("releases", [])
-    if not releases:
-        # First-ever release for this extension entry. Build a fresh release
-        # object with a default version_range; the human can tighten it later.
-        releases.append({
+
+    # If this exact tag is already listed, update its asset URL in place
+    # rather than adding a duplicate entry (no-op if the URL also matches).
+    existing = next((r for r in releases if r.get("name") == args.tag), None)
+    if existing is not None:
+        if existing.get("main_url") == args.asset_url:
+            print(f"No change: {target['name']} already lists {args.tag}")
+            return 78  # EX_NOOP
+        existing["main_url"] = args.asset_url
+        print(f"Updated asset URL for {target['name']} {args.tag}")
+    else:
+        # New release: PREPEND so older entries stay matchable for users still
+        # on a previous version (see module docstring). Inherit the current
+        # newest release's version_range so a human-tightened range carries
+        # forward; fall back to a default for a brand-new entry.
+        if releases:
+            version_range = copy.deepcopy(
+                releases[0].get("version_range", {"min": "v0.6.0"})
+            )
+        else:
+            version_range = {"min": "v0.6.0"}
+        releases.insert(0, {
             "name": args.tag,
             "main_url": args.asset_url,
-            "version_range": {"min": "v0.6.0"},
+            "version_range": version_range,
         })
-    else:
-        head = releases[0]
-        old_name = head.get("name")
-        old_url = head.get("main_url")
-        if old_name == args.tag and old_url == args.asset_url:
-            print(f"No change: {target['name']} already at {args.tag}")
-            return 78  # EX_NOOP
-        head["name"] = args.tag
-        head["main_url"] = args.asset_url
-        # version_range is preserved deliberately
+        print(f"Added {target['name']} {args.tag}")
 
     # Pretty-print with the same conventions catalog.json already uses
     text = json.dumps(catalog, indent=2, ensure_ascii=False) + "\n"
