@@ -30,7 +30,7 @@ Browse to each repo's `.github/workflows/` folder on GitHub and confirm
 - https://github.com/uw-loci/qupath-extension-cell-analysis-tools/tree/main/.github/workflows
 - https://github.com/uw-loci/qupath-extension-dialog-manager/tree/master/.github/workflows
 - https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/tree/master/.github/workflows
-- https://github.com/uw-loci/qupath-extension-gated-object-classifier/tree/main/.github/workflows
+- https://github.com/uw-loci/qupath-extension-classify-object-subset/tree/main/.github/workflows
 - https://github.com/uw-loci/qupath-extension-image-export-toolkit/tree/main/.github/workflows
 - https://github.com/uw-loci/qupath-extension-project-metadata-browser/tree/main/.github/workflows
 - https://github.com/uw-loci/qupath-extension-wizard-wand/tree/main/.github/workflows
@@ -116,7 +116,7 @@ LOCI catalog targets:
 - `uw-loci/qupath-extension-cell-analysis-tools`
 - `uw-loci/qupath-extension-dialog-manager`
 - `uw-loci/qupath-extension-dl-pixel-classifier`
-- `uw-loci/qupath-extension-gated-object-classifier`
+- `uw-loci/qupath-extension-classify-object-subset`
 - `uw-loci/qupath-extension-image-export-toolkit`
 - `uw-loci/qupath-extension-project-metadata-browser`
 - `uw-loci/qupath-extension-wizard-wand`

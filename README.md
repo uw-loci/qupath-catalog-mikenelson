@@ -53,10 +53,10 @@ Brush- and wand-style editor for line and polyline annotations. Push, smooth, sc
 
 - **Repository**: https://github.com/uw-loci/qupath-extension-polyline-wand
 
-### Gated Object Classifier
+### Classify Object Subset
 Apply a saved object classifier to a *gated* subset of objects, defined by class membership, a measurement threshold, the current viewer selection, or any combination. Live preview of how many objects will be classified; each apply records a reusable workflow step that can be replayed across a project.
 
-- **Repository**: https://github.com/uw-loci/qupath-extension-gated-object-classifier
+- **Repository**: https://github.com/uw-loci/qupath-extension-classify-object-subset
 
 ### Project Metadata Browser
 Browse, search, and edit metadata across all images in a QuPath project from a single table view. Per-column sort and filter, column-visibility menu, CSV/TSV export.

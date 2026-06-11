@@ -117,14 +117,14 @@
       ]
     },
     {
-      "name": "Gated Object Classifier",
-      "description": "Apply a saved object classifier to a gated subset of objects, defined by class membership, a measurement threshold, the current selection, or any combination. Each apply records a reusable workflow step.",
+      "name": "Classify Object Subset",
+      "description": "Apply a saved object classifier to a subset of objects, defined by class membership, one or more measurement thresholds, the current selection, or any combination. Each apply records a reusable workflow step.",
       "author": "Michael Nelson",
-      "homepage": "https://github.com/uw-loci/qupath-extension-gated-object-classifier",
+      "homepage": "https://github.com/uw-loci/qupath-extension-classify-object-subset",
       "releases": [
         {
           "name": "v0.1.0",
-          "main_url": "https://github.com/uw-loci/qupath-extension-gated-object-classifier/releases/download/v0.1.0/qupath-extension-gated-object-classifier-0.1.0-all.jar",
+          "main_url": "https://github.com/uw-loci/qupath-extension-classify-object-subset/releases/download/v0.1.0/qupath-extension-gated-object-classifier-0.1.0-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
