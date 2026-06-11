@@ -87,6 +87,13 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-polyline-wand",
       "releases": [
         {
+          "name": "v0.3.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.3.3/qupath-extension-polyline-wand-0.3.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
           "name": "v0.3.2",
           "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.3.2/qupath-extension-polyline-wand-0.3.2-all.jar",
           "version_range": {
