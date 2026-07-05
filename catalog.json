@@ -294,6 +294,21 @@
           }
         }
       ]
+    },
+    {
+      "name": "Cluster 3D Navigator",
+      "description": "Interactive in-QuPath 3D point cloud of your clustered cells: rotate, zoom, and pan, then click a point to select and center that cell in the viewer. Generic across any clustering tool -- reads detections, PathClass, and numeric measurements, auto-detecting UMAP/PCA/tSNE axes. Optional on-demand cell thumbnails.",
+      "author": "Michael Nelson",
+      "homepage": "https://github.com/uw-loci/qupath-extension-cluster-3d-navigator",
+      "releases": [
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cluster-3d-navigator/releases/download/v0.1.0/qupath-extension-cluster-3d-navigator-0.1.0-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        }
+      ]
     }
   ]
 }
