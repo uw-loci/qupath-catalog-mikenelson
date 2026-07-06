@@ -323,6 +323,13 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-cluster-3d-navigator",
       "releases": [
         {
+          "name": "v0.1.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cluster-3d-navigator/releases/download/v0.1.4/qupath-extension-cluster-3d-navigator-0.1.4-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
+        {
           "name": "v0.1.3",
           "main_url": "https://github.com/uw-loci/qupath-extension-cluster-3d-navigator/releases/download/v0.1.3/qupath-extension-cluster-3d-navigator-0.1.3-all.jar",
           "version_range": {
