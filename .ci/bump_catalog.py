@@ -105,10 +105,10 @@ def main() -> int:
         # forward; fall back to a default for a brand-new entry.
         if releases:
             version_range = copy.deepcopy(
-                releases[0].get("version_range", {"min": "v0.6.0"})
+                releases[0].get("version_range", {"min": "v0.7.0"})
             )
         else:
-            version_range = {"min": "v0.6.0"}
+            version_range = {"min": "v0.7.0"}
         releases.insert(0, {
             "name": args.tag,
             "main_url": args.asset_url,
