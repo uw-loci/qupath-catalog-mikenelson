@@ -6,7 +6,7 @@ Experimental QuPath extensions developed by Mike Nelson at [LOCI](https://elicei
 
 ## Adding This Catalog to QuPath
 
-1. Open QuPath (v0.6.0 or later)
+1. Open QuPath (v0.7.0 or later)
 2. Go to **Extensions > Manage extensions**
 3. Click **Manage extension catalogs**
 4. Click **Add** and enter this URL:
