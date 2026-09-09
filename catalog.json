@@ -28,6 +28,104 @@
           "version_range": {
             "min": "v0.6.0"
           }
+        },
+        {
+          "name": "v0.8.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.8.2/qupath-extension-dl-pixel-classifier-0.8.2-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.8.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.8.1/qupath-extension-dl-pixel-classifier-0.8.1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.8.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.8.0/qupath-extension-dl-pixel-classifier-0.8.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.11",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.11/qupath-extension-dl-pixel-classifier-0.7.11-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.10",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.10/qupath-extension-dl-pixel-classifier-0.7.10-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.9",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.9/qupath-extension-dl-pixel-classifier-0.7.9-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.8",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.8/qupath-extension-dl-pixel-classifier-0.7.8-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.7/qupath-extension-dl-pixel-classifier-0.7.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.6",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.6/qupath-extension-dl-pixel-classifier-0.7.6-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.5",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.5/qupath-extension-dl-pixel-classifier-0.7.5-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.4/qupath-extension-dl-pixel-classifier-0.7.4-javadoc.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.7.3/qupath-extension-dl-pixel-classifier-0.7.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.6.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.6.2/qupath-extension-dl-pixel-classifier-0.6.2-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dl-pixel-classifier/releases/download/v0.3.7/qupath-extension-DL-pixel-classifier-0.3.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
         }
       ]
     },
@@ -253,6 +351,76 @@
           "version_range": {
             "min": "v0.6.0"
           }
+        },
+        {
+          "name": "v0.3.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.3.3/qupath-extension-cell-analysis-tools-0.3.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.3.2/qupath-extension-cell-analysis-tools-0.3.2-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.3.1/qupath-extension-cell-analysis-tools-0.3.1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.3.0/qupath-extension-cell-analysis-tools-0.3.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.10",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.2.10/qupath-extension-cell-analysis-tools-0.2.10-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.9",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.2.9/qupath-extension-cell-analysis-tools-0.2.9-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.8",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.2.8/qupath-extension-cell-analysis-tools-0.2.8-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.2.7/qupath-extension-cell-analysis-tools-0.2.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.2.4/qupath-extension-cell-analysis-tools-0.2.4-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.2.3/qupath-extension-cell-analysis-tools-0.2.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
         }
       ]
     },
@@ -266,6 +434,97 @@
         {
           "name": "v1.2.8",
           "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.8/qupath-extension-image-export-toolkit-1.2.8-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.2.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.7/qupath-extension-image-export-toolkit-1.2.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.2.6",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.6/qupath-extension-image-export-toolkit-1.2.6-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.2.5",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.5/qupath-extension-image-export-toolkit-1.2.5-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.2.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.4/qupath-extension-image-export-toolkit-1.2.4-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.2.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.3/qupath-extension-image-export-toolkit-1.2.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.2.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.2/qupath-extension-image-export-toolkit-1.2.2-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.2.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.2.1/qupath-extension-image-export-toolkit-1.2.1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.0.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v1.0.0/qupath-extension-image-export-toolkit-1.0.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.7/qupath-extension-image-export-toolkit-0.7.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.6",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.6/qupath-extension-image-export-toolkit-0.7.6-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.5",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.5/qupath-extension-image-export-toolkit-0.7.5-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.3/qupath-extension-image-export-toolkit-0.7.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.7.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/releases/download/v0.7.1/qupath-extension-image-export-toolkit-0.7.1-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
@@ -285,6 +544,27 @@
           "version_range": {
             "min": "v0.6.0"
           }
+        },
+        {
+          "name": "v0.4.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.4.0/qupath-extension-dialog-manager-0.4.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.6",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.3.6/qupath-extension-dialog-manager-0.3.6-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-dialog-manager/releases/download/v0.3.4/qupath-extension-dialog-manager-0.3.4-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
         }
       ]
     },
@@ -298,6 +578,13 @@
         {
           "name": "v0.4.3",
           "main_url": "https://github.com/uw-loci/qupath-extension-wizard-wand/releases/download/v0.4.3/qupath-extension-wizard-wand-0.4.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.4.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-wizard-wand/releases/download/v0.4.2/qupath-extension-wizard-wand-0.4.2-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
@@ -334,6 +621,27 @@
         {
           "name": "v0.3.2",
           "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.3.2/qupath-extension-polyline-wand-0.3.2-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.3.1/qupath-extension-polyline-wand-0.3.1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.3.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.3.0/qupath-extension-polyline-wand-0.3.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.2.2/qupath-extension-polyline-wand-0.2.2-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
@@ -388,6 +696,20 @@
           "version_range": {
             "min": "v0.6.0"
           }
+        },
+        {
+          "name": "v0.2.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-project-metadata-browser/releases/download/v0.2.0/qupath-extension-project-metadata-browser-0.2.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-project-metadata-browser/releases/download/v0.1.1/qupath-extension-project-metadata-browser-0.1.1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
         }
       ]
     },
@@ -403,6 +725,27 @@
           "version_range": {
             "min": "v0.6.0"
           }
+        },
+        {
+          "name": "v1.0.8",
+          "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.0.8/qupath-extension-channel-names-viewer-1.0.8-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.0.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.0.7/qupath-extension-channel-names-viewer-1.0.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v1.0.6",
+          "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.0.6/qupath-extension-channel-names-viewer-1.0.6-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
         }
       ]
     },
@@ -415,6 +758,62 @@
         {
           "name": "v0.1.8",
           "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.8/qupath-extension-class-distribution-0.1.8-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.7/qupath-extension-class-distribution-0.1.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.6",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.6/qupath-extension-class-distribution-0.1.6-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.5",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.5/qupath-extension-class-distribution-0.1.5-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.4/qupath-extension-class-distribution-0.1.4-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.3/qupath-extension-class-distribution-0.1.3-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.2/qupath-extension-class-distribution-0.1.2-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.1/qupath-extension-class-distribution-0.1.1-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.0/qupath-extension-class-distribution-0.1.0-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
@@ -501,6 +900,13 @@
         {
           "name": "v0.3.0",
           "main_url": "https://github.com/uw-loci/qupath-extension-ocr4labels/releases/download/v0.3.0/qupath-extension-ocr4labels-0.3.0-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.3",
+          "main_url": "https://github.com/uw-loci/qupath-extension-ocr4labels/releases/download/v0.2.3/qupath-extension-ocr4labels-0.2.3-all.jar",
           "version_range": {
             "min": "v0.6.0"
           }
