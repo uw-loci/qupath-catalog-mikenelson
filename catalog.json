@@ -608,7 +608,6 @@
       "description": "Interactive magic wand tool with adjustable tolerance for region growing annotation",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-wizard-wand",
-      "starred": true,
       "releases": [
         {
           "name": "v0.4.3",
@@ -631,6 +630,7 @@
       "description": "Brush and wand-style editor for line and polyline annotations -- push, smooth, scissors-cut, and erase-from-end modes with two swappable engines (direct vertex push, arc-length displacement field)",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-polyline-wand",
+      "starred": true,
       "releases": [
         {
           "name": "v0.3.10",
@@ -716,6 +716,7 @@
       "description": "Apply a saved object classifier to a subset of objects, defined by class membership, one or more measurement thresholds, the current selection, or any combination. Each apply records a reusable workflow step.",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-classify-object-subset",
+      "starred": true,
       "releases": [
         {
           "name": "v0.3.1",
@@ -781,6 +782,7 @@
       "description": "Always-visible floating legend listing the currently-selected fluorescence channels, color-coded and live-updating as you toggle channels in Brightness/Contrast",
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-channel-names-viewer",
+      "starred": true,
       "releases": [
         {
           "name": "v1.0.9",
