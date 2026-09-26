@@ -1083,6 +1083,13 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid",
       "releases": [
         {
+          "name": "v0.7.7",
+          "main_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/releases/download/v0.7.7/qupath-extension-tiles-to-pyramid-0.7.7-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
           "name": "v0.7.6",
           "main_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/releases/download/v0.7.6/qupath-extension-tiles-to-pyramid-0.7.6-all.jar",
           "version_range": {
