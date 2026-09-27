@@ -227,6 +227,13 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools",
       "releases": [
         {
+          "name": "v0.15.0",
+          "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.15.0/qupath-extension-cell-analysis-tools-0.15.0-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
+        {
           "name": "v0.14.17",
           "main_url": "https://github.com/uw-loci/qupath-extension-cell-analysis-tools/releases/download/v0.14.17/qupath-extension-cell-analysis-tools-0.14.17-all.jar",
           "version_range": {
