@@ -1236,6 +1236,13 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-ocr4labels",
       "releases": [
         {
+          "name": "v0.4.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-ocr4labels/releases/download/v0.4.4/qupath-extension-ocr4labels-0.4.4-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
+        {
           "name": "v0.4.3",
           "main_url": "https://github.com/uw-loci/qupath-extension-ocr4labels/releases/download/v0.4.3/qupath-extension-ocr4labels-0.4.3-all.jar",
           "version_range": {
