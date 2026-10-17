@@ -1079,6 +1079,13 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-wizard-wand",
       "releases": [
         {
+          "name": "v0.4.4",
+          "main_url": "https://github.com/uw-loci/qupath-extension-wizard-wand/releases/download/v0.4.4/qupath-extension-wizard-wand-0.4.4-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
           "name": "v0.4.3",
           "main_url": "https://github.com/uw-loci/qupath-extension-wizard-wand/releases/download/v0.4.3/qupath-extension-wizard-wand-0.4.3-all.jar",
           "version_range": {
