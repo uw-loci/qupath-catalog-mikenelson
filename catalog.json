@@ -1151,6 +1151,13 @@
       "starred": true,
       "releases": [
         {
+          "name": "v0.3.12",
+          "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.3.12/qupath-extension-polyline-wand-0.3.12-all.jar",
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
           "name": "v0.3.11",
           "main_url": "https://github.com/uw-loci/qupath-extension-polyline-wand/releases/download/v0.3.11/qupath-extension-polyline-wand-0.3.11-all.jar",
           "version_range": {
@@ -1323,6 +1330,13 @@
       "homepage": "https://github.com/uw-loci/qupath-extension-channel-names-viewer",
       "starred": true,
       "releases": [
+        {
+          "name": "v1.1.1",
+          "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.1.1/qupath-extension-channel-names-viewer-1.1.1-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
         {
           "name": "v1.1.0",
           "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.1.0/qupath-extension-channel-names-viewer-1.1.0-all.jar",
@@ -1678,6 +1692,13 @@
       "author": "Michael Nelson",
       "homepage": "https://github.com/uw-loci/qupath-extension-class-visibility",
       "releases": [
+        {
+          "name": "v0.4.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-class-visibility/releases/download/v0.4.2/qupath-extension-class-visibility-0.4.2-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
         {
           "name": "v0.4.1",
           "main_url": "https://github.com/uw-loci/qupath-extension-class-visibility/releases/download/v0.4.1/qupath-extension-class-visibility-0.4.1-all.jar",
