@@ -1429,6 +1429,13 @@
       "starred": true,
       "releases": [
         {
+          "name": "v1.1.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.1.2/qupath-extension-channel-names-viewer-1.1.2-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
+        {
           "name": "v1.1.1",
           "main_url": "https://github.com/uw-loci/qupath-extension-channel-names-viewer/releases/download/v1.1.1/qupath-extension-channel-names-viewer-1.1.1-all.jar",
           "version_range": {
