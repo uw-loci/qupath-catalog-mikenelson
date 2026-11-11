@@ -1356,6 +1356,13 @@
       "starred": true,
       "releases": [
         {
+          "name": "v0.3.2",
+          "main_url": "https://github.com/uw-loci/qupath-extension-classify-object-subset/releases/download/v0.3.2/qupath-extension-classify-object-subset-0.3.2-all.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
+        {
           "name": "v0.3.1",
           "main_url": "https://github.com/uw-loci/qupath-extension-classify-object-subset/releases/download/v0.3.1/qupath-extension-classify-object-subset-0.3.1-all.jar",
           "version_range": {
