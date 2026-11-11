@@ -1510,7 +1510,7 @@
           "name": "v0.1.9",
           "main_url": "https://github.com/uw-loci/qupath-extension-class-distribution/releases/download/v0.1.9/qupath-extension-class-distribution-0.1.9-all.jar",
           "version_range": {
-            "min": "v0.6.0"
+            "min": "v0.7.0"
           }
         },
         {
